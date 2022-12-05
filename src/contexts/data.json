@@ -1,0 +1,22 @@
+{
+  "external_urls": {
+    "spotify": "https://open.spotify.com/playlist/5zurfHqqqxmDznl7QIlDeb"
+  },
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d0000b2739b19c107109de740bad72df5ab67616d0000b273b1d860ab1ba847e778b2796dab67616d0000b273c31d3c870a3dbaf7b53186ccab67616d0000b273d843fabb75fef14010e30cae",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d0000b2739b19c107109de740bad72df5ab67616d0000b273b1d860ab1ba847e778b2796dab67616d0000b273c31d3c870a3dbaf7b53186ccab67616d0000b273d843fabb75fef14010e30cae",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d0000b2739b19c107109de740bad72df5ab67616d0000b273b1d860ab1ba847e778b2796dab67616d0000b273c31d3c870a3dbaf7b53186ccab67616d0000b273d843fabb75fef14010e30cae",
+      "width": 60
+    }
+  ]
+}

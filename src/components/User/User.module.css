@@ -1,0 +1,31 @@
+.root {
+  @apply flex flex-shrink-0 items-center justify-between border-b border-ui3 bg-ui6 bg-opacity-80 p-4 h-[100px];
+}
+
+.link {
+  @apply block flex-shrink-0;
+}
+
+.user {
+  @apply flex items-center;
+}
+
+.image {
+  @apply inline-block h-10 w-10 rounded-full;
+}
+
+.placeholder {
+  @apply bg-gradient-to-r from-primary to-secondary;
+}
+
+.name {
+  @apply text-base font-medium text-text;
+}
+
+.email {
+  @apply text-sm font-medium text-ui1;
+}
+
+.details {
+  @apply ml-3;
+}

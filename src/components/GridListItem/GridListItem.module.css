@@ -1,0 +1,19 @@
+.root {
+  @apply flex-1 rounded-md border border-ui4 bg-ui6 px-4 py-3 h-full;
+}
+
+.playlist {
+  @apply flex gap-3 mb-0.5;
+}
+
+.playlistColorSign {
+  @apply flex-shrink-0 w-4 h-4 rounded-full relative top-1;
+}
+
+.playlistName {
+  @apply font-medium text-ui1 hover:text-white text-base cursor-pointer transition-colors;
+}
+
+.ownerName {
+  @apply text-ui2 text-sm pl-7;
+}

@@ -1,0 +1,11 @@
+.main {
+  @apply border-t border-ui4 lg:relative lg:mb-28 lg:ml-112 lg:border-t-0 xl:ml-120 min-h-[200px] lg:min-h-[calc(100vh_-_200px)] flex scrollbar-hidden;
+}
+
+.header {
+  @apply bg-ui7 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:w-112 lg:items-start lg:overflow-y-auto xl:w-120 scrollbar-hidden;
+}
+
+.footer {
+  @apply fixed inset-x-0 bottom-0 z-10 lg:left-112 bg-ui7 bg-opacity-90 backdrop-blur-sm xl:left-120 scrollbar-hidden;
+}

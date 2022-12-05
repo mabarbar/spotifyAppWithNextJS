@@ -1,0 +1,11 @@
+.button {
+  @apply rounded-full flex shrink-0 justify-center items-center bg-ui5 w-8 h-8 transition-colors ease-linear;
+}
+
+.button:hover {
+  @apply bg-ui3;
+}
+
+.icon {
+  @apply w-4 h-4 text-white;
+}

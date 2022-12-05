@@ -1,0 +1,15 @@
+.root {
+  @apply p-7 border-t border-ui4;
+}
+
+.player {
+  @apply flex justify-between items-center gap-7;
+}
+
+.trackName {
+  @apply text-sm mb-1.5;
+}
+
+.trackAuthor {
+  @apply text-[13px] text-ui2 mt-1;
+}

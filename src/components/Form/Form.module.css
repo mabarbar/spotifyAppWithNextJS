@@ -1,0 +1,51 @@
+.root {
+  @apply flex flex-col;
+}
+
+.input {
+  @apply block w-full rounded-md text-text border-ui4 bg-ui4 shadow-sm focus:border-primary focus:ring-primary sm:text-sm;
+}
+
+.info {
+  @apply flex flex-row justify-between;
+}
+
+.label {
+  @apply block text-sm font-normal text-text;
+}
+
+.error {
+  @apply block text-sm font-normal text-warning truncate;
+}
+
+.loading {
+  @apply block text-sm absolute left-4 font-normal text-secondary truncate;
+}
+
+.searchInput {
+  @apply block w-full rounded-none rounded-l-md text-text bg-ui4 border-ui4 pl-10 focus:border-primary focus:ring-primary sm:text-sm;
+}
+
+.searchButton {
+  @apply relative -ml-px inline-flex items-center space-x-2 rounded-r-md border border-ui4 bg-ui5 px-4 py-2 text-sm font-medium text-ui1 hover:bg-ui6 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary;
+}
+
+.searchIcon {
+  @apply h-5 w-5 text-ui2;
+}
+
+.searchIconWrapper {
+  @apply pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3;
+}
+
+.searchWrapper {
+  @apply relative flex flex-grow items-stretch focus-within:z-10;
+}
+
+.search {
+  @apply mt-3 flex rounded-md shadow-sm;
+}
+
+.button {
+  @apply relative inline-flex items-center h-fit w-full justify-center rounded-md border-2 border-ui4 bg-ui8 px-4 py-2 text-sm font-medium text-text shadow-sm hover:border-primary focus:outline-none focus:ring-2 focus:ring-ui4 focus:ring-offset-2 focus:ring-offset-primary transition-colors ease-linear;
+}

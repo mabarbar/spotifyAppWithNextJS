@@ -1,0 +1,27 @@
+.root {
+  @apply flex items-center gap-4 w-full;
+}
+
+.progressContainer {
+  @apply relative w-full h-2 bg-ui5 cursor-pointer rounded-sm;
+}
+
+.progressContainer:hover .progress {
+  @apply bg-primary;
+}
+
+.progressContainer:hover .indicator {
+  @apply opacity-100;
+}
+
+.progress {
+  @apply absolute top-0 left-0 h-full bg-white rounded-sm transition-colors ease-linear;
+}
+
+.indicator {
+  @apply absolute w-1.5 h-5 bg-white rounded-sm opacity-0 transition-opacity ease-linear;
+}
+
+.timer {
+  @apply text-xs flex items-center gap-1.5 text-ui2;
+}

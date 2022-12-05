@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 800" opacity="1">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="oooscillate-grad">
+            <stop stop-color="hsl(248, 18%, 18%)" stop-opacity="1" offset="0%"></stop>
+            <stop stop-color="hsl(248, 18%, 14%)" stop-opacity="1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke-width="1.5" stroke="url(#oooscillate-grad)" fill="none" stroke-linecap="round">
+        <path d="M 0 874 Q 355.5 -100 711 400 Q 1066.5 900 1422 874" opacity="0.05"></path>
+        <path d="M 0 855 Q 355.5 -100 711 400 Q 1066.5 900 1422 855" opacity="0.07"></path>
+        <path d="M 0 836 Q 355.5 -100 711 400 Q 1066.5 900 1422 836" opacity="0.09"></path>
+        <path d="M 0 817 Q 355.5 -100 711 400 Q 1066.5 900 1422 817" opacity="0.11"></path>
+        <path d="M 0 798 Q 355.5 -100 711 400 Q 1066.5 900 1422 798" opacity="0.13"></path>
+        <path d="M 0 779 Q 355.5 -100 711 400 Q 1066.5 900 1422 779" opacity="0.16"></path>
+        <path d="M 0 760 Q 355.5 -100 711 400 Q 1066.5 900 1422 760" opacity="0.18"></path>
+        <path d="M 0 741 Q 355.5 -100 711 400 Q 1066.5 900 1422 741" opacity="0.20"></path>
+        <path d="M 0 722 Q 355.5 -100 711 400 Q 1066.5 900 1422 722" opacity="0.22"></path>
+        <path d="M 0 703 Q 355.5 -100 711 400 Q 1066.5 900 1422 703" opacity="0.24"></path>
+        <path d="M 0 684 Q 355.5 -100 711 400 Q 1066.5 900 1422 684" opacity="0.26"></path>
+        <path d="M 0 665 Q 355.5 -100 711 400 Q 1066.5 900 1422 665" opacity="0.28"></path>
+        <path d="M 0 646 Q 355.5 -100 711 400 Q 1066.5 900 1422 646" opacity="0.30"></path>
+        <path d="M 0 627 Q 355.5 -100 711 400 Q 1066.5 900 1422 627" opacity="0.32"></path>
+        <path d="M 0 608 Q 355.5 -100 711 400 Q 1066.5 900 1422 608" opacity="0.35"></path>
+        <path d="M 0 589 Q 355.5 -100 711 400 Q 1066.5 900 1422 589" opacity="0.37"></path>
+        <path d="M 0 570 Q 355.5 -100 711 400 Q 1066.5 900 1422 570" opacity="0.39"></path>
+        <path d="M 0 551 Q 355.5 -100 711 400 Q 1066.5 900 1422 551" opacity="0.41"></path>
+        <path d="M 0 532 Q 355.5 -100 711 400 Q 1066.5 900 1422 532" opacity="0.43"></path>
+        <path d="M 0 513 Q 355.5 -100 711 400 Q 1066.5 900 1422 513" opacity="0.45"></path>
+        <path d="M 0 494 Q 355.5 -100 711 400 Q 1066.5 900 1422 494" opacity="0.47"></path>
+        <path d="M 0 475 Q 355.5 -100 711 400 Q 1066.5 900 1422 475" opacity="0.49"></path>
+        <path d="M 0 456 Q 355.5 -100 711 400 Q 1066.5 900 1422 456" opacity="0.51"></path>
+        <path d="M 0 437 Q 355.5 -100 711 400 Q 1066.5 900 1422 437" opacity="0.54"></path>
+        <path d="M 0 418 Q 355.5 -100 711 400 Q 1066.5 900 1422 418" opacity="0.56"></path>
+        <path d="M 0 399 Q 355.5 -100 711 400 Q 1066.5 900 1422 399" opacity="0.58"></path>
+        <path d="M 0 380 Q 355.5 -100 711 400 Q 1066.5 900 1422 380" opacity="0.60"></path>
+        <path d="M 0 361 Q 355.5 -100 711 400 Q 1066.5 900 1422 361" opacity="0.62"></path>
+        <path d="M 0 342 Q 355.5 -100 711 400 Q 1066.5 900 1422 342" opacity="0.64"></path>
+        <path d="M 0 323 Q 355.5 -100 711 400 Q 1066.5 900 1422 323" opacity="0.66"></path>
+        <path d="M 0 304 Q 355.5 -100 711 400 Q 1066.5 900 1422 304" opacity="0.68"></path>
+        <path d="M 0 285 Q 355.5 -100 711 400 Q 1066.5 900 1422 285" opacity="0.70"></path>
+        <path d="M 0 266 Q 355.5 -100 711 400 Q 1066.5 900 1422 266" opacity="0.73"></path>
+        <path d="M 0 247 Q 355.5 -100 711 400 Q 1066.5 900 1422 247" opacity="0.75"></path>
+        <path d="M 0 228 Q 355.5 -100 711 400 Q 1066.5 900 1422 228" opacity="0.77"></path>
+        <path d="M 0 209 Q 355.5 -100 711 400 Q 1066.5 900 1422 209" opacity="0.79"></path>
+        <path d="M 0 190 Q 355.5 -100 711 400 Q 1066.5 900 1422 190" opacity="0.81"></path>
+        <path d="M 0 171 Q 355.5 -100 711 400 Q 1066.5 900 1422 171" opacity="0.83"></path>
+        <path d="M 0 152 Q 355.5 -100 711 400 Q 1066.5 900 1422 152" opacity="0.85"></path>
+        <path d="M 0 133 Q 355.5 -100 711 400 Q 1066.5 900 1422 133" opacity="0.87"></path>
+        <path d="M 0 114 Q 355.5 -100 711 400 Q 1066.5 900 1422 114" opacity="0.89"></path>
+        <path d="M 0 95 Q 355.5 -100 711 400 Q 1066.5 900 1422 95" opacity="0.92"></path>
+        <path d="M 0 76 Q 355.5 -100 711 400 Q 1066.5 900 1422 76" opacity="0.94"></path>
+        <path d="M 0 57 Q 355.5 -100 711 400 Q 1066.5 900 1422 57" opacity="0.96"></path>
+        <path d="M 0 38 Q 355.5 -100 711 400 Q 1066.5 900 1422 38" opacity="0.98"></path>
+    </g>
+</svg>

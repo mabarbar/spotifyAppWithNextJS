@@ -1,0 +1,4 @@
+{
+  "extends": ["next", "plugin:@next/next/recommended", "prettier"],
+  "ignorePatterns": ["next.config.js", ".next", "pnpm-lock.yaml"]
+}

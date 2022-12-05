@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Peaceful Piano",
+    "owner": "Dominik Cieliński",
+    "slug": "peaceful-piano",
+    "spotifyId": "37i9dQZF1DX4sWSpwq3LiO",
+    "color": "#F4D03F",
+    "id": "635d626431cd653a285a67a1"
+  },
+  {
+    "name": "Spotify Hity",
+    "owner": "Paweł Marcinkiewicz",
+    "slug": "spotify-hity",
+    "spotifyId": "37i9dQZF1DWVP71DYelp29",
+    "color": "#2980B9",
+    "id": "635d6330ae413c27a0071bde"
+  },
+  {
+    "name": "Lata 90",
+    "owner": "August Kocik",
+    "slug": "lata-90",
+    "spotifyId": "37i9dQZF1DXbTxeAdrVG2l",
+    "color": "#58D68D",
+    "id": "635d635eae413c27a0071be1"
+  },
+  {
+    "name": "Spotify Covery",
+    "owner": "Izabela Świerk",
+    "slug": "spotify-covery",
+    "spotifyId": "37i9dQZF1DWZqyWCBK6QTt",
+    "color": "#58D68D",
+    "id": "635d639cae413c27a0071be4"
+  },
+  {
+    "name": "Red Hoci",
+    "owner": "Regina Wilk",
+    "slug": "red-hoci",
+    "spotifyId": "761qISmudNnnQ99BvnU4wo",
+    "color": "#58D68D",
+    "id": "635d63b9ae413c27a0071be7"
+  },
+  {
+    "name": "Miejski Chill",
+    "owner": "Iwan Stawicki",
+    "slug": "miejski-chill",
+    "spotifyId": "37i9dQZF1DWVoMrfBJGgYD",
+    "color": "#EC7063",
+    "id": "635d6401ae413c27a0071bea"
+  },
+  {
+    "name": "Fierce Femmes",
+    "owner": "Kacper Ziemski",
+    "slug": "fierce-femmes",
+    "spotifyId": "37i9dQZF1DX5kjCvsC5isB",
+    "color": "#8E44AD",
+    "id": "635d643eae413c27a0071bed"
+  },
+  {
+    "name": "Jesienny Chill",
+    "owner": "Martyna Konopacka",
+    "slug": "jesienny-chill",
+    "spotifyId": "37i9dQZF1DXakrXW5YU9SI",
+    "color": "#F4D03F",
+    "id": "635d6473ae413c27a0071bf4"
+  },
+  {
+    "name": "Idealny Dzień",
+    "owner": "Pelagia Berka",
+    "slug": "idealny-dzien",
+    "spotifyId": "37i9dQZF1DWSXBu5naYCM9",
+    "color": "#A3E4D7",
+    "id": "635d64aaae413c27a0071bf7"
+  },
+  {
+    "name": "Klasyki Disco Polo",
+    "owner": "Albert Solecki",
+    "slug": "klasyki-disco-polo",
+    "spotifyId": "37i9dQZF1DXahkpBcruHaS",
+    "color": "#3498DB",
+    "id": "635d650aae413c27a0071c01"
+  },
+  {
+    "name": "Lata 00",
+    "owner": "Edward Biesiada",
+    "slug": "lata-00",
+    "spotifyId": "37i9dQZF1DX4o1oenSJRJd",
+    "color": "#F8C471",
+    "id": "635d6552ae413c27a0071c04"
+  },
+  {
+    "name": "Wild + Free",
+    "owner": "Ludwik Misiewicz",
+    "slug": "wild-+-free",
+    "spotifyId": "37i9dQZF1DX5Q5wA1hY6bS",
+    "color": "#A569BD",
+    "id": "635d6589ae413c27a0071c07"
+  },
+  {
+    "name": "Anime on Replay",
+    "owner": "Adrian Nowak",
+    "slug": "anime-on-replay",
+    "spotifyId": "37i9dQZF1DX0hAXqBDwvwI",
+    "color": "#1ABC9C",
+    "id": "635d6641bfee4075b5b0df95"
+  },
+  {
+    "name": "Klasycznie",
+    "owner": "Agata Gach",
+    "slug": "klasycznie",
+    "spotifyId": "37i9dQZF1DWWEJlAGA9gs0",
+    "color": "#E74C3C",
+    "id": "635d667cbfee4075b5b0df98"
+  },
+  {
+    "name": "Baby Shark",
+    "owner": "Halina Załuska",
+    "slug": "baby-shark",
+    "spotifyId": "6vMvLwbh2oXmdQYMi2AtwN",
+    "color": "#82E0AA",
+    "id": "635d66bcbfee4075b5b0df9b"
+  },
+  {
+    "name": "Alternatywna Polska",
+    "owner": "Dominik Juras",
+    "slug": "alternatywna-polska",
+    "spotifyId": "37i9dQZF1DWXz9uZQKizRS",
+    "color": "#F4F6F7",
+    "id": "635d6705bfee4075b5b0dfa3"
+  },
+  {
+    "name": "Elektryczny Blues",
+    "owner": "Ludomir Szylling",
+    "slug": "elektryczny-blues",
+    "spotifyId": "37i9dQZF1DX9GnjlK17CLK",
+    "color": "#7DCEA0",
+    "id": "635d674abfee4075b5b0dfa6"
+  },
+  {
+    "name": "Ambient Chill",
+    "owner": "Otylia Zuba",
+    "slug": "ambient-chill",
+    "spotifyId": "1kqBP6eE24L0agNpnTIKtc",
+    "color": "#85C1E9",
+    "id": "635d676abfee4075b5b0dfa9"
+  },
+  {
+    "name": "Happy Hits",
+    "owner": "Sylwia Silarz",
+    "slug": "happy-hits",
+    "spotifyId": "37i9dQZF1DXdPec7aLTmlC",
+    "color": "#FEFEFE",
+    "id": "635fc41e8a00ea2865903764"
+  },
+  {
+    "name": "Klasyki Rocka",
+    "owner": "Dariusz Kosmalski",
+    "slug": "klasyki-rocka",
+    "spotifyId": "37i9dQZF1DWXRqgorJj26U",
+    "color": "#fadadd",
+    "id": "635fc471d627404cf0333d02"
+  },
+  {
+    "name": "Dance Party",
+    "owner": "Kazimierz Jeżewski",
+    "slug": "dance-party",
+    "spotifyId": "37i9dQZF1DXaXB8fQg7xif",
+    "color": "#fe46b8",
+    "id": "635fcb25b1ffa951e3df34f2"
+  },
+  {
+    "name": "Fresh Folk",
+    "owner": "Kazimierz Jeżewski",
+    "slug": "fresh-folk",
+    "spotifyId": "37i9dQZF1DXaUDcU6KDCj4",
+    "color": "#6c42f5",
+    "id": "635fffc4ac9c1a5344eb4d53"
+  },
+  {
+    "name": "Lata 80",
+    "owner": "Helena Mucha",
+    "slug": "lata-80",
+    "spotifyId": "37i9dQZF1DX4UtSsGT1Sbe",
+    "color": "#eb3471",
+    "id": "636000d582a8b6433447fb02"
+  },
+  {
+    "name": "Marry",
+    "owner": "Adrianna Józefowicz",
+    "slug": "marry",
+    "spotifyId": "37i9dQZF1DZ06evO26F1xE",
+    "color": "#F8F8F8",
+    "id": "636393ca5b5da881260a6c0f"
+  }
+]
