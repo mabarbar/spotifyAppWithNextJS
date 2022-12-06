@@ -10,6 +10,7 @@ import type {
 } from "next";
 import { PlayCircleIcon } from "@heroicons/react/20/solid";
 
+// SSR
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const providers = await getProviders();
   return {

@@ -22,7 +22,6 @@ export const getPlaylists = async (
       owner: playlist.owner,
       slug: playlist.slug,
       spotifyId: playlist.spotifyId,
-      upvote: playlist.upvote,
       color: playlist.color || DEFAULT_CARD_COLOR,
       id: playlist._id.toString(),
     };
@@ -41,7 +40,6 @@ export const getPlaylistBySlug = async (
     owner: playlist.owner,
     slug: playlist.slug,
     spotifyId: playlist.spotifyId,
-    upvote: playlist.upvote,
     color: playlist.color || DEFAULT_CARD_COLOR,
     id: playlist._id.toString(),
   };
@@ -60,7 +58,6 @@ export const getPlaylistById = async (
     owner: playlist.owner,
     slug: playlist.slug,
     spotifyId: playlist.spotifyId,
-    upvote: playlist.upvote,
     color: playlist.color || DEFAULT_CARD_COLOR,
     id: playlist._id.toString(),
   };

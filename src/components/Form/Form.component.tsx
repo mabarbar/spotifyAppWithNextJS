@@ -26,7 +26,6 @@ export const Form: React.FC<Props> = ({}) => {
       name: "",
       owner: "",
       slug: "",
-      upvote: 0,
       spotifyId: "",
       color: DEFAULT_CARD_COLOR,
     },
