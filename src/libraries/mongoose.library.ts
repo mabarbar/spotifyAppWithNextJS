@@ -8,6 +8,7 @@ if (!MONGODB_URI) {
   );
 }
 
+//  TODO: extend global types
 declare global {
   var mongoose: any;
 }
