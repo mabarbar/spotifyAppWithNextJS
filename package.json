@@ -10,6 +10,7 @@
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
     "formidable": "^2.1.1",
+    "framer-motion": "^7.6.19",
     "lodash.debounce": "^4.0.8",
     "mongoose": "^6.6.5",
     "next": "^13.0.0",

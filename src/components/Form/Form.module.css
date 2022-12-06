@@ -43,9 +43,13 @@
 }
 
 .search {
-  @apply mt-3 flex rounded-md shadow-sm;
+  @apply mt-3 flex rounded-md shadow-sm z-[5];
 }
 
 .button {
   @apply relative inline-flex items-center h-fit w-full justify-center rounded-md border-2 border-ui4 bg-ui8 px-4 py-2 text-sm font-medium text-text shadow-sm hover:border-primary focus:outline-none focus:ring-2 focus:ring-ui4 focus:ring-offset-2 focus:ring-offset-primary transition-colors ease-linear;
+}
+
+.searchButton {
+  @apply relative -ml-px inline-flex items-center space-x-2 rounded-r-md border border-ui4 bg-ui5 px-4 py-2 text-sm font-medium text-ui1 hover:bg-ui6 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary;
 }

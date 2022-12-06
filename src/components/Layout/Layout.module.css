@@ -3,7 +3,7 @@
 }
 
 .header {
-  @apply bg-ui7 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:w-112 lg:items-start lg:overflow-y-auto xl:w-120 scrollbar-hidden;
+  @apply bg-ui7 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:w-112 lg:items-start lg:overflow-y-auto xl:w-120 scrollbar-hidden z-10;
 }
 
 .footer {

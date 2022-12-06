@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-
 import Playlist, { Model, ModelWithId } from "~/models/Playlist.model";
 import dbConnect from "~/libraries/mongoose.library";
 import { getPlaylists, Sort } from "~/libraries/api.library";

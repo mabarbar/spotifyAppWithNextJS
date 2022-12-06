@@ -1,17 +1,14 @@
 import React from "react";
-
 import Head from "next/head";
-import { GetStaticPropsContext, InferGetStaticPropsType } from "next/types";
 import { Layout, Container, Loader } from "~/components";
 import type { NextPageWithLayout } from "~/types/common.types";
-
-import dbConnect from "~/libraries/mongoose.library";
-
-import { getPlaylists } from "~/libraries/api.library";
-import useList from "~/hooks/useList.hook";
 import Main from "~/views/Main/Main.view";
+import dbConnect from "~/libraries/mongoose.library";
+import { getPlaylists } from "~/libraries/api.library";
+import { InferGetStaticPropsType } from "next";
+import { useList } from "~/hooks/useList.hook";
 
-export const getStaticProps = async (ctx: GetStaticPropsContext) => {
+export const getStaticProps = async () => {
   await dbConnect();
   const limit = 0;
   const data = await getPlaylists(limit);
@@ -33,17 +30,16 @@ export const getStaticProps = async (ctx: GetStaticPropsContext) => {
   };
 };
 
-type Props = InferGetStaticPropsType<typeof getStaticProps>;
+const Index: NextPageWithLayout<InferGetStaticPropsType<typeof getStaticProps>> = ({fallbackData, limit}) => {
 
-const Index: NextPageWithLayout<Props> = ({ fallbackData, limit }) => {
-  const { data, mutate, isLoading } = useList({
-    limit,
-    fallbackData,
-    revalidateOnMount: false,
-    revalidateOnFocus: false,
-  });
+const {data, mutate, isLoading } = useList({
+  limit,
+  fallbackData,
+  revalidateOnMount: false,
+  revalidateOnFocus: false,
+})
 
-  const playlists = isLoading ? null : data;
+const playlists = isLoading ? null : data
 
   return (
     <>

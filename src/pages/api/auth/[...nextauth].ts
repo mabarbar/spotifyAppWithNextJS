@@ -1,13 +1,13 @@
-import NextAuth from "next-auth";
-import { JWT } from "next-auth/jwt";
-import Spotify from "next-auth/providers/spotify";
 import {
-  SPOTIFY_CLIENT_ID,
-  SPOTIFY_CLIENT_SECRET,
   NEXTAUTH_SECRET,
   SPOTIFY_AUTH_SCOPES,
+  SPOTIFY_CLIENT_ID,
+  SPOTIFY_CLIENT_SECRET,
 } from "~/config/common.config";
 import spotify from "~/libraries/spotify.library";
+import Spotify from "next-auth/providers/spotify";
+import NextAuth from "next-auth";
+import { JWT } from "next-auth/jwt";
 
 async function refreshAccessToken(token: JWT) {
   try {

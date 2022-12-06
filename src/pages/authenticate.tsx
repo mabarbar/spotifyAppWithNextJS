@@ -10,7 +10,7 @@ import type {
 } from "next";
 import { PlayCircleIcon } from "@heroicons/react/20/solid";
 
-// SSR
+//ssr
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const providers = await getProviders();
   return {
@@ -32,7 +32,7 @@ const Authenticate: NextPageWithLayout<Props> = ({ providers }) => {
       <Container>
         <div className="flex flex-auto items-center relative justify-center min-h-screen">
           <div className="z-10">
-            {providers &&
+            {providers ?
               Object.values(providers).map((provider) => {
                 return (
                   <div key={provider.name}>
@@ -45,7 +45,7 @@ const Authenticate: NextPageWithLayout<Props> = ({ providers }) => {
                     </button>
                   </div>
                 );
-              })}
+              }) : null}
           </div>
         </div>
       </Container>
