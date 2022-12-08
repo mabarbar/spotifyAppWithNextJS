@@ -1,0 +1,31 @@
+.mainImageContainer {
+  @apply relative;
+}
+
+.mainImage {
+  @apply inline-block h-[100px] w-[100px] rounded-lg;
+}
+
+.placeholder {
+  @apply bg-gradient-to-r from-warning to-primary;
+}
+
+.playlistColorBadge {
+  @apply absolute -right-2 -top-2 w-7 h-7 rounded-full z-10 border-[6px] border-ui8;
+}
+
+.header {
+  @apply flex py-8 gap-8;
+}
+
+.headerInfo {
+  @apply flex flex-col;
+}
+
+.name {
+  @apply font-bold text-4xl sm:text-5xl xl:text-6xl;
+}
+
+.owner {
+  @apply text-ui1 mt-2;
+}

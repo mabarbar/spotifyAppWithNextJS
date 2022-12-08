@@ -1,0 +1,59 @@
+.root {
+  @apply grid grid-cols-[25px_50px_1fr_50px] lg:grid-cols-[25px_50px_1fr_100px_50px] gap-6 items-center border-b border-ui6 transition-colors px-2 py-3 xl:p-5 hover:bg-ui6;
+}
+
+.root:hover .playButton,
+.root:hover .link {
+  @apply opacity-100;
+}
+
+.root.playable .index {
+  @apply text-primary;
+}
+
+.root.active {
+  @apply bg-primary;
+}
+
+.root.active .index {
+  @apply text-white;
+}
+
+.index {
+  @apply text-sm text-ui1 text-right;
+}
+
+.albumImage {
+  @apply rounded-md;
+}
+
+.name {
+  @apply text-sm;
+}
+
+.artist {
+  @apply text-[13px] text-ui1;
+}
+
+.duration {
+  @apply text-sm text-ui1 hidden lg:block;
+}
+
+.actions {
+  @apply flex items-center justify-end gap-3;
+}
+
+.playButton,
+.link {
+  @apply opacity-0;
+}
+
+.playButton:hover .playIcon,
+.link:hover .linkIcon {
+  @apply text-white;
+}
+
+.playIcon,
+.linkIcon {
+  @apply w-5 h-5 text-ui1 transition-colors;
+}

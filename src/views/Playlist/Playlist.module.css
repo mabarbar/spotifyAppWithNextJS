@@ -1,0 +1,11 @@
+.listHeader {
+  @apply sticky top-0 grid grid-cols-[25px_50px_1fr_50px] lg:grid-cols-[25px_50px_1fr_100px_50px] gap-6 px-2 py-3 xl:p-6 text-[13px] text-ui1 uppercase border-b border-ui5 bg-ui8 z-10;
+}
+
+.headerIndex {
+  @apply text-right;
+}
+
+.headerDuration {
+  @apply hidden lg:block;
+}

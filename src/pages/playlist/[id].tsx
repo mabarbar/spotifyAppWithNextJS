@@ -1,10 +1,12 @@
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next/types";
 import type { NextPageWithLayout } from "~/types/common.types";
 import dbConnect from "~/libraries/mongoose.library";
-import { Container, Layout } from "~/components";
+import { Container, Layout, Loader } from "~/components";
 import { getAllIds, getPlaylistById } from "~/libraries/api.library";
 import Head from "next/head";
 import usePlaylist from "~/hooks/usePlaylist.hook";
+import useSpotifyPlaylist from "~/hooks/useSpotifyPlaylist.hook";
+import PlaylistView from "~/views/Playlist/Playlist.view";
 
 export const getStaticProps = async (ctx: GetStaticPropsContext) => {
   const id = ctx?.params?.id?.toString();
@@ -49,18 +51,30 @@ export const getStaticPaths = async () => {
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 const Playlist: NextPageWithLayout<Props> = ({ id, fallbackData }) => {
-  const { data, isLoading } = usePlaylist({
-    id,
-    fallbackData,
-    revalidateOnMount: false,
+  const { data, isLoading } = useSpotifyPlaylist({
+    id: fallbackData.data.spotifyId,
   });
+
   return (
     <>
       <Head>
-        <title>DaftAcademy - Lista</title>
+        <title>DaftAcademy - {fallbackData.data.name}</title>
       </Head>
 
-      <Container>{<div>PlaylistId: {id}</div>}</Container>
+      <Container>
+        {isLoading ? (
+          <Loader />
+        ) : (
+          <PlaylistView
+            playlist={{
+              ...fallbackData.data,
+              url: data?.body.external_urls.spotify,
+              image: data?.body.images[0].url,
+            }}
+            trackList={data?.body.tracks.items || []}
+          />
+        )}
+      </Container>
     </>
   );
 };
