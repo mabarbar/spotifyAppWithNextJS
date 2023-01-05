@@ -52,13 +52,13 @@ type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 const Playlist: NextPageWithLayout<Props> = ({ id, fallbackData }) => {
   const { data, isLoading } = useSpotifyPlaylist({
-    id: fallbackData.data.spotifyId,
+    id: fallbackData?.data.spotifyId,
   });
 
   return (
     <>
       <Head>
-        <title>DaftAcademy - {fallbackData.data.name}</title>
+        <title>DaftAcademy - {fallbackData?.data.name}</title>
       </Head>
 
       <Container>
