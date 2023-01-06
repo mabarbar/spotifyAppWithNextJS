@@ -7,6 +7,10 @@
 ### email: spotifyappbarzenc@gmail.com
 ### hasło: haslo123
 
+! Po zakończeniu miesiąca próbnego nie będzie dało się zalogować do aplikacji, ponieważ konto nie będzie miało dostępu do plików dostarczanych przez Spotify.
+
+! Aby wypróbować aplikację zalecam napisać do mnie na adres email: "mateusz.barzenc00@gmail.com" z prośbą o dodanie dostępu do aplikacji w dev-dashboardzie Spotify. Można również sklonować repozytorium za pomocą <code>git clone</code>, pobrać potrzebne paczki i stworzyć w głównym folderze plik .env, według pliku .env.template, który jest dostarczony w repozytorium, nie będzie wtedy jednak dostępu do MongoDB, w której są domyślne pliki.
+
 - Aplikacja zbudowana w trakcie kursu od [Daftacademy](https://www.daftacademy.pl/)
 
 - W aplikacji korzystamy z:
@@ -31,6 +35,10 @@ ________________________________________________________________________________
 ## Therefore, please try to log in through the following credentials, as this account is set to access the application:
 ### email: spotifyappbarzenc@gmail.com
 ### password: haslo123
+
+! After the end of the trial month, it will not be possible to log into the app through this account, as it will not have access to files provided by Spotify.
+
+! To try out the app, I recommend you to email me to request access to the app in the Spotify dev-dashboard. You can also clone the repository using <code>git clone</code>, download the necessary packages and create an .env file in the main folder, according to the .env.template file that is provided in the repository, but then you will not have access to MongoDB, where the playlist objects are stored.
 
 - Application built during [Daftacademy](https://www.daftacademy.pl/) course.
 
